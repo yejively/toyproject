@@ -1,4 +1,4 @@
-import { FontColor } from './style.css';
+import { FontColor, FontColor2 } from './style.css';
 import { ColorTag } from './style';
 
 const Main = () => {
@@ -6,6 +6,7 @@ const Main = () => {
         <>
             <ColorTag>테스트1</ColorTag>
             <div className={FontColor}>테스트</div>
+            <div className={FontColor2}>x</div>
         </>
     );
 };
