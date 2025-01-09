@@ -28,3 +28,34 @@ export const calculator = style({
     border: 'solid 1px #c8c8c8',
     borderRadius: 20,
 });
+
+export const display = style({
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "center",
+    alignItems: "flex-end",
+    padding: "10px",
+    border: "1px solid #ccc",
+    borderRadius: "5px",
+    backgroundColor: "#f9f9f9",
+});
+
+export const buttons = style({
+    display: "grid",
+    gridTemplateColumns: "repeat(4, 1fr)",
+    gap: "10px",
+});
+
+export const button = style({
+    padding: "20px",
+    fontSize: "1.2rem",
+    borderRadius: "5px",
+    border: "none",
+    backgroundColor: "#f1f1f1",
+    cursor: "pointer",
+    selectors: {
+        "&:hover": {
+            backgroundColor: "#ddd",
+        },
+    },
+});

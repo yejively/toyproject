@@ -1,10 +1,11 @@
-import { container, calculator } from './style.css';
+import Calculator from './Calculator';
+import { container } from './style.css';
 
 const Main = () => {
     return (
         <>
             <div className={container}>
-                <div className={calculator} />
+                <Calculator />
             </div>
         </>
     );
