@@ -1,5 +1,6 @@
 import React from "react";
-import { calculator, display, buttons, button } from "./style.css";
+import Fileds from "@/widgets/Fileds";
+import { calculator, buttons, button } from "./style.css";
 
 const Calculator = () => {
     const handleButtonClick = (value) => {
@@ -16,9 +17,7 @@ const Calculator = () => {
 
     return (
         <div className={calculator}>
-            <div className={display}>
-                <div />
-            </div>
+            <Fileds />
             <div className={buttons}>
                 {buttonValues.map((value) => (
                     <button
